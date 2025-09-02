@@ -1,0 +1,10 @@
+
+To access the data used in this workflow, download the FASTQ file from the NCBI SRA database using:
+
+https://www.ncbi.nlm.nih.gov/sra/SRR35204195
+
+Alternatively, use the SRA Toolkit with the following command:
+
+    fastq-dump --split-files SRR35204195
+
+This will generate the file `SRR35204195.fastq` used in the workflow.

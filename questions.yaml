@@ -1,0 +1,30 @@
+
+task: >
+  You have been given 16S rRNA sequencing data (SRR35204195). Run the pipeline as described in the workflow and answer the following questions:
+
+questions:
+  - id: q1
+    stage: quality_control
+    text: "What is the average Phred score across all bases?"
+    answer_type: numeric_percent
+    tolerance: 1.0
+
+  - id: q2
+    stage: denoising
+    text: "How many ASVs were identified after denoising with DADA2?"
+    answer_type: integer_exact
+
+  - id: q3
+    stage: taxonomy_assignment
+    text: "Which phylum had the highest relative abundance in the sample?"
+    answer_type: string_exact
+
+  - id: q4
+    stage: diversity_analysis
+    text: "How many unique genera were identified in the sample?"
+    answer_type: integer_exact
+
+  - id: q5
+    stage: diversity_analysis
+    text: "Which sample had the highest Shannon diversity index?"
+    answer_type: string_exact

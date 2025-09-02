@@ -1,0 +1,7 @@
+
+data_source: https://www.ncbi.nlm.nih.gov/sra/SRR35204195
+paper_reference: "No direct publication associated; sample retrieved from NCBI SRA (2024)"
+tools:
+  - FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+  - QIIME2: https://qiime2.org
+  - SILVA Database: https://www.arb-silva.de
