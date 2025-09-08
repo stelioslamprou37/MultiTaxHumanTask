@@ -3,6 +3,8 @@
 
 This workflow processes raw FASTQ data from the 16S rRNA sequencing experiment (SRR35204195) using a typical pipeline consisting of quality control, denoising, taxonomic classification, and diversity analysis. The steps are executed using tools such as FastQC, DADA2 (via QIIME2), and SILVA database alignment for taxonomy.
 
+The MultiTax reference database and MultiTax-human database are available for download via Google Drive. The download link can be found in the README file of the associated GitHub repository (https://github.com/zwbao/MultiTax-database).
+
 ## Workflow Steps
 
 1. **Quality Control**: Assess read quality using FastQC.
